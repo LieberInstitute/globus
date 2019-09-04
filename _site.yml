@@ -1,0 +1,7 @@
+name: "LIBD Globus"
+navbar:
+  title: "LIBD Globus Share Endpoints"
+  left:
+    - text: "Home"
+      href: index.html
+output_dir:  "."

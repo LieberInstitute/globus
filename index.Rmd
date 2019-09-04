@@ -1,0 +1,64 @@
+---
+title: "LIBD Globus"
+---
+
+This website contains the latest list of Globus Share Endpoints created by the LIBD Data Science Team 1. For more information about how to use Globus check the [JHPCE Globus tutorial website](https://jhpce.jhu.edu/knowledge-base/using-globus-to-transfer-files/).
+
+```{r 'create_index', echo = FALSE}
+create_index <- function(dirname, website) {
+    
+    html <- paste0(
+'<html>
+<head>
+<meta http-equiv="refresh" content="0;url=\'', website, '\'">
+</head>
+</html>
+'       
+    )
+        
+## This didn't work...      
+# glue:glue(
+# '<html>
+# <head>
+# <meta http-equiv="refresh" content="0;url=\'{website}\'">
+# </head>
+# </html>
+# '
+#     )
+    dirname_valid <- gsub('#', '_', dirname)
+    
+    dir.create(dirname_valid, showWarnings = FALSE)
+    index <- file.path(dirname_valid, 'index.html')
+    cat(html, file = index)
+    
+    ## Make link
+    markdown_link <- glue::glue('* [`{dirname}`]({dirname_valid}/index.html)')
+    return(markdown_link)
+}
+```
+
+```{r 'indexes', results = 'asis', echo = FALSE}
+create_index('jhpce#bsp2-dlpfc', 'https://app.globus.org/file-manager?origin_id=4abf617e-ce7f-11e9-939d-02ff96a5aa76&origin_path=%2F')
+create_index('jhpce#bsp2-hippo', 'https://app.globus.org/file-manager?origin_id=fbe813f4-cf44-11e9-9cf3-0edb67dd7a14&origin_path=%2F')
+create_index('jhpce#brainepi-cellsorted', 'https://app.globus.org/file-manager?origin_id=1d1096ba-cf44-11e9-939e-02ff96a5aa76&origin_path=%2F')
+create_index('jhpce#brainepi-polyA', 'https://app.globus.org/file-manager?origin_id=5b3ab2c2-cf44-11e9-98e2-0a63aa6b37da&origin_path=%2F')
+```
+
+For the following Globus share endpoints you need to request access given the type of data being shared.
+
+```{r 'indexes_private', results = 'asis', echo = FALSE}
+create_index('jhpce#bsp1-bam', 'mailto:andrew.jaffe@libd.org')
+create_index('jhpce#bsp1-count', 'mailto:andrew.jaffe@libd.org')
+create_index('jhpce#bsp1-genotype', 'mailto:andrew.jaffe@libd.org')
+```
+
+
+
+## Reproducibility
+
+```{r 'reproducbility'}
+options(width = 120)
+sessioninfo::session_info()
+```
+
+
