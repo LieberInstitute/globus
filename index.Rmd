@@ -43,6 +43,7 @@ create_index('jhpce#bsp2-hippo', 'https://app.globus.org/file-manager?origin_id=
 create_index('jhpce#brainepi-cellsorted', 'https://app.globus.org/file-manager?origin_id=1d1096ba-cf44-11e9-939e-02ff96a5aa76&origin_path=%2F')
 create_index('jhpce#brainepi-polyA', 'https://app.globus.org/file-manager?origin_id=5b3ab2c2-cf44-11e9-98e2-0a63aa6b37da&origin_path=%2F')
 create_index('jhpce#fractionRNA', 'https://app.globus.org/file-manager?origin_id=f3cb5692-f3aa-11e9-be92-02fcc9cdd752&origin_path=%2F')
+create_index('NatComm_StemCellData', 'https://app.globus.org/file-manager?origin_id=ce314562-0ae4-11ea-be9a-02fcc9cdd752&origin_path=%2F')
 ```
 
 For the following Globus share endpoints you need to request access given the type of data being shared.
