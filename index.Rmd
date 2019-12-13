@@ -40,6 +40,8 @@ create_index <- function(dirname, website) {
 ```{r 'indexes', results = 'asis', echo = FALSE}
 create_index('jhpce#bsp2-dlpfc', 'https://app.globus.org/file-manager?origin_id=4abf617e-ce7f-11e9-939d-02ff96a5aa76&origin_path=%2F')
 create_index('jhpce#bsp2-hippo', 'https://app.globus.org/file-manager?origin_id=fbe813f4-cf44-11e9-9cf3-0edb67dd7a14&origin_path=%2F')
+create_index('jhpce#bsp2-dlpfc-bam', 'https://app.globus.org/file-manager?origin_id=9392b43a-1dbe-11ea-b955-0e16720bb42f&origin_path=%2F')
+create_index('jhpce#bsp2-hippo-bam', 'https://app.globus.org/file-manager?origin_id=2fe34b7e-1dbf-11ea-b955-0e16720bb42f&origin_path=%2F')
 create_index('jhpce#brainepi-cellsorted', 'https://app.globus.org/file-manager?origin_id=1d1096ba-cf44-11e9-939e-02ff96a5aa76&origin_path=%2F')
 create_index('jhpce#brainepi-polyA', 'https://app.globus.org/file-manager?origin_id=5b3ab2c2-cf44-11e9-98e2-0a63aa6b37da&origin_path=%2F')
 create_index('jhpce#fractionRNA', 'https://app.globus.org/file-manager?origin_id=f3cb5692-f3aa-11e9-be92-02fcc9cdd752&origin_path=%2F')
