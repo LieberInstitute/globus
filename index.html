@@ -13,8 +13,8 @@
 
 <title>LIBD Globus</title>
 
-<script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.12/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -60,6 +60,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -80,6 +81,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -232,7 +236,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -274,6 +278,7 @@ $(document).ready(function () {
 <li><a href="NatNeuro_TCF4_Data/index.html"><code>NatNeuro_TCF4_Data</code></a></li>
 <li><a href="jhpce_HumanPilot10x/index.html"><code>jhpce#HumanPilot10x</code></a></li>
 <li><a href="jhpce_tran2021/index.html"><code>jhpce#tran2021</code></a></li>
+<li><a href="jhpce_TREG_paper/index.html"><code>jhpce#TREG_paper</code></a></li>
 </ul>
 <p>For the following Globus share endpoints you need to request access given the type of data being shared.</p>
 <ul>
