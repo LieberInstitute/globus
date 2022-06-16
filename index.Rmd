@@ -50,6 +50,8 @@ create_index('NatNeuro_TCF4_Data', 'https://app.globus.org/file-manager?origin_i
 create_index('jhpce#HumanPilot10x', 'https://app.globus.org/file-manager?origin_id=ae756c8c-c211-11ea-8f24-0a21f750d19b&origin_path=%2F')
 create_index("jhpce#tran2021", "https://app.globus.org/file-manager?origin_id=e4e30efc-f166-11eb-ab64-d195c983855c&origin_path=%2F")
 create_index("jhpce#TREG_paper", "https://app.globus.org/file-manager?origin_id=9884e5b8-aae9-11ec-bade-cd8db799a66a&origin_path=%2F")
+create_index("jhpce#spatialDLPFC", "https://app.globus.org/file-manager?origin_id=6cd81564-ed47-11ec-8358-cd84b862b754&origin_path=%2F")
+
 ```
 
 For the following Globus share endpoints you need to request access given the type of data being shared.
