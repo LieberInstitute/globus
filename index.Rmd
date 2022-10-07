@@ -51,6 +51,7 @@ create_index('jhpce#HumanPilot10x', 'https://app.globus.org/file-manager?origin_
 create_index("jhpce#tran2021", "https://app.globus.org/file-manager?origin_id=e4e30efc-f166-11eb-ab64-d195c983855c&origin_path=%2F")
 create_index("jhpce#TREG_paper", "https://app.globus.org/file-manager?origin_id=9884e5b8-aae9-11ec-bade-cd8db799a66a&origin_path=%2F")
 create_index("jhpce#spatialDLPFC", "https://app.globus.org/file-manager?origin_id=6cd81564-ed47-11ec-8358-cd84b862b754&origin_path=%2F")
+create_index("jhpce#DLPFC_snRNAseq", "https://app.globus.org/file-manager?origin_id=ac85e63a-4668-11ed-ba50-d5fb255a47cc&origin_path=%2F")
 
 ```
 
