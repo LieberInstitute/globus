@@ -52,7 +52,7 @@ create_index("jhpce#tran2021", "https://app.globus.org/file-manager?origin_id=e4
 create_index("jhpce#TREG_paper", "https://app.globus.org/file-manager?origin_id=9884e5b8-aae9-11ec-bade-cd8db799a66a&origin_path=%2F")
 create_index("jhpce#spatialDLPFC", "https://app.globus.org/file-manager?origin_id=6cd81564-ed47-11ec-8358-cd84b862b754&origin_path=%2F")
 create_index("jhpce#DLPFC_snRNAseq", "https://app.globus.org/file-manager?origin_id=6f9322c4-5eaf-11ed-b0b5-bfe7e7197080&origin_path=%2F")
-
+create_index("jhpce#Visium_SPG_AD", "https://app.globus.org/file-manager?origin_id=03252306-c509-11ed-961f-4b6fcc022e5a&path=%2F")
 ```
 
 For the following Globus share endpoints you need to request access given the type of data being shared.
