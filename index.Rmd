@@ -64,4 +64,5 @@ create_index('jhpce#bsp1-bam', 'mailto:andrew.jaffe@libd.org')
 create_index('jhpce#bsp1-count', 'mailto:andrew.jaffe@libd.org')
 create_index('jhpce#bsp1-genotype', 'mailto:andrew.jaffe@libd.org')
 create_index('brainseq_phase2_genotypes', 'mailto:andrew.jaffe@libd.org')
+create_index('WeberDivecha2023_locus_coeruleus', 'mailto:keri.martinowich@libd.org')
 ```
