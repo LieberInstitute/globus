@@ -55,6 +55,8 @@ create_index("jhpce#DLPFC_snRNAseq", "https://app.globus.org/file-manager?origin
 create_index("jhpce#Visium_SPG_AD", "https://app.globus.org/file-manager?origin_id=03252306-c509-11ed-961f-4b6fcc022e5a&path=%2F")
 create_index("jhpce#spatial_NAc", "https://app.globus.org/file-manager?origin_id=b8faf5f2-d319-11ed-8ebb-fdf94a47aaa3&path=%2F")
 create_index("jhpce#septum_lateral", "https://app.globus.org/file-manager?origin_id=4a246882-1209-11ee-bdd3-a3018385fcef&path=%2F")
+create_index("jhpce#habenulaPilotbulkRNAseq", "https://app.globus.org/file-manager?origin_id=4624b994-6b7a-4a70-b504-1615411a74e5&origin_path=%2F")
+create_index("jhpce#habenulaPilotsnRNAseq", "https://app.globus.org/file-manager?origin_id=3727999a-15bd-41ca-bf79-8a7602dd0ffa&origin_path=%2F")
 ```
 
 For the following Globus share endpoints you need to request access given the type of data being shared.
@@ -65,4 +67,5 @@ create_index('jhpce#bsp1-count', 'mailto:AndrewEJaffe@gmail.com')
 create_index('jhpce#bsp1-genotype', 'mailto:AndrewEJaffe@gmail.com')
 create_index('brainseq_phase2_genotypes', 'mailto:AndrewEJaffe@gmail.com')
 create_index('WeberDivecha2023_locus_coeruleus', 'mailto:keri.martinowich@libd.org')
+create_index("jhpce#habenulaPilotbulkDNAgenotype", "mailto:Kristen.Maynard@libd.org")
 ```
