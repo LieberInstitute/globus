@@ -58,8 +58,8 @@ create_index("jhpce#septum_lateral", "https://app.globus.org/file-manager?origin
 create_index("jhpce#habenulaPilotbulkRNAseq", "https://app.globus.org/file-manager?origin_id=4624b994-6b7a-4a70-b504-1615411a74e5&origin_path=%2F")
 create_index("jhpce#habenulaPilotsnRNAseq", "https://app.globus.org/file-manager?origin_id=3727999a-15bd-41ca-bf79-8a7602dd0ffa&origin_path=%2F")
 create_index("jhpce#habenulaPilotRNAscope", "https://app.globus.org/file-manager?origin_id=efc055d5-7686-4957-814c-89e1392d4f42&origin_path=%2F")
-create_index("jhpce#humanDeconvolutionBulkRNAseq", "https://app.globus.org/file-manager?origin_id=TODO")
-create_index("jhpce#humanDeconvolutionRNAScope", "https://app.globus.org/file-manager?origin_id=TODO")
+create_index("jhpce#humanDeconvolutionBulkRNAseq", "https://app.globus.org/file-manager?origin_id=17ea5635-440c-4d4d-9b20-092463b1bdc4&origin_path=%2F")
+create_index("jhpce#humanDeconvolutionRNAScope", "https://app.globus.org/file-manager?origin_id=211e02e0-1fe4-4f48-8e43-371d3fbdf5da&origin_path=%2F")
 ```
 
 For the following Globus share endpoints you need to request access given the type of data being shared.
