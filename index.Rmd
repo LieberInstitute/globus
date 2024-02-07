@@ -38,37 +38,46 @@ create_index <- function(dirname, website) {
 ```
 
 ```{r 'indexes', results = 'asis', echo = FALSE}
-# /dcl01/lieber/ajaffe/lab/brainseq_phase2/preprocessed_data/DLPFC_RiboZero/brainseq/dlpfc/merged_fastq/
+# /dcl01/lieber/ajaffe/lab/brainseq_phase2/preprocessed_data/DLPFC_RiboZero/brainseq/dlpfc/merged_fastq/ (original)
+# /dcs04/lieber/lcolladotor/BrainSEQ_LIBD001/brainseq_phase2/preprocessed_data/DLPFC_RiboZero/brainseq/dlpfc/merged_fastq/ (since 2024-02-07)
 create_index('jhpce#bsp2-dlpfc', 'https://app.globus.org/file-manager?origin_id=4abf617e-ce7f-11e9-939d-02ff96a5aa76&origin_path=%2F')
 
-# /dcl01/lieber/ajaffe/lab/brainseq_phase2/preprocessed_data/Hippo_RiboZero/brainseq/hippo/merged_fastq/
+# /dcl01/lieber/ajaffe/lab/brainseq_phase2/preprocessed_data/Hippo_RiboZero/brainseq/hippo/merged_fastq/ (original)
+# /dcs04/lieber/lcolladotor/BrainSEQ_LIBD001/brainseq_phase2/preprocessed_data/Hippo_RiboZero/brainseq/hippo/merged_fastq/ (since 2024-02-07)
 create_index('jhpce#bsp2-hippo', 'https://app.globus.org/file-manager?origin_id=fbe813f4-cf44-11e9-9cf3-0edb67dd7a14&origin_path=%2F')
 
-# /dcl01/lieber/ajaffe/lab/brainseq_phase2/preprocessed_data/DLPFC_RiboZero/HISAT2_out/
+# /dcl01/lieber/ajaffe/lab/brainseq_phase2/preprocessed_data/DLPFC_RiboZero/HISAT2_out/ (original)
+# /dcs04/lieber/lcolladotor/BrainSEQ_LIBD001/brainseq_phase2/preprocessed_data/DLPFC_RiboZero/HISAT2_out/ (since 2024-02-07)
 create_index('jhpce#bsp2-dlpfc-bam', 'https://app.globus.org/file-manager?origin_id=9392b43a-1dbe-11ea-b955-0e16720bb42f&origin_path=%2F')
 
-# /dcl01/lieber/ajaffe/lab/brainseq_phase2/preprocessed_data/Hippo_RiboZero/HISAT2_out/
+# /dcl01/lieber/ajaffe/lab/brainseq_phase2/preprocessed_data/Hippo_RiboZero/HISAT2_out/ (original)
+# /dcs04/lieber/lcolladotor/BrainSEQ_LIBD001/brainseq_phase2/preprocessed_data/Hippo_RiboZero/HISAT2_out/ (since 2024-02-07)
 create_index('jhpce#bsp2-hippo-bam', 'https://app.globus.org/file-manager?origin_id=2fe34b7e-1dbf-11ea-b955-0e16720bb42f&origin_path=%2F')
 
-# /dcl01/lieber/ajaffe/CellSorting/RNAseq_pipeline/
+# /dcl01/lieber/ajaffe/CellSorting/RNAseq_pipeline/ (original)
+# /dcl01/lieber/ajaffe/CellSorting/RNAseq_pipeline/ (since 2024-02-07)
 create_index('jhpce#brainepi-cellsorted', 'https://app.globus.org/file-manager?origin_id=1d1096ba-cf44-11e9-939e-02ff96a5aa76&origin_path=%2F')
 
-# /dcl01/lieber/ajaffe/lab/brain-epigenomics/brainseq_pipeline/polyA_unstranded/
+# /dcl01/lieber/ajaffe/lab/brain-epigenomics/brainseq_pipeline/polyA_unstranded/ (original)
+# /dcs05/lieber/liebercentral/wgbsPrice2019_LIBD001/brainseq_pipeline/polyA_unstranded/ (since 2024-02-07)
 create_index('jhpce#brainepi-polyA', 'https://app.globus.org/file-manager?origin_id=5b3ab2c2-cf44-11e9-98e2-0a63aa6b37da&origin_path=%2F')
 
-# Controlled by AEJ
+# Controlled by AEJ (currently broken: aka, likely a /dcl01 or /dcs01 path)
 create_index('jhpce#fractionRNA', 'https://app.globus.org/file-manager?origin_id=f3cb5692-f3aa-11e9-be92-02fcc9cdd752&origin_path=%2F')
 
 # Controlled by AEJ
+# JHPCE full path?
 create_index('NatComm_StemCellData', 'https://app.globus.org/file-manager?origin_id=ce314562-0ae4-11ea-be9a-02fcc9cdd752&origin_path=%2F')
 
 # Controlled by AEJ
+# JHPCE full path?
 create_index('NatNeuro_TCF4_Data', 'https://app.globus.org/file-manager?origin_id=a79ed5e2-0bdc-11ea-be9b-02fcc9cdd752&origin_path=%2F')
 
 # /dcl02/lieber/ajaffe/SpatialTranscriptomics/HumanPilot/10X/
 create_index('jhpce#HumanPilot10x', 'https://app.globus.org/file-manager?origin_id=ae756c8c-c211-11ea-8f24-0a21f750d19b&origin_path=%2F')
 
-# /dcl01/ajaffe/data/lab/singleCell/10x_pilot/FASTQ/
+# /dcl01/ajaffe/data/lab/singleCell/10x_pilot/FASTQ/ (original)
+# /dcs04/lieber/lcolladotor/rawDataTDSC_LIBD001/raw-data/2021-10-15_Tran2021_published (since 2024-02-07)
 create_index("jhpce#tran2021", "https://app.globus.org/file-manager?origin_id=e4e30efc-f166-11eb-ab64-d195c983855c&origin_path=%2F")
 
 # /dcs04/lieber/lcolladotor/deconvolution_LIBD4030/TREG_paper/
@@ -108,16 +117,20 @@ create_index("jhpce#humanDeconvolutionRNAScope", "https://app.globus.org/file-ma
 For the following Globus share endpoints you need to request access given the type of data being shared.
 
 ```{r 'indexes_private', results = 'asis', echo = FALSE}
-# /dcl01/ajaffe/data/lab/brainseq_phase1/preprocessed_data/HISAT2_out/
+# /dcl01/ajaffe/data/lab/brainseq_phase1/preprocessed_data/HISAT2_out/ (original)
+# /dcs04/lieber/lcolladotor/BrainSEQ_LIBD001/brainseq_phase1/preprocessed_data/HISAT2_out/ (since 2024-02-07)
 create_index('jhpce#bsp1-bam', 'mailto:AndrewEJaffe@gmail.com')
 
-# /dcl01/ajaffe/data/lab/brainseq_phase1/count_data/
+# /dcl01/ajaffe/data/lab/brainseq_phase1/count_data/ (original)
+# /dcs04/lieber/lcolladotor/BrainSEQ_LIBD001/brainseq_phase1/count_data/ (since 2024-02-07)
 create_index('jhpce#bsp1-count', 'mailto:AndrewEJaffe@gmail.com')
 
-# /dcl01/ajaffe/data/lab/brainseq_phase1/genotype_data/
+# /dcl01/ajaffe/data/lab/brainseq_phase1/genotype_data/ (original)
+# /dcs04/lieber/lcolladotor/BrainSEQ_LIBD001/brainseq_phase1/genotype_data/ (since 2024-02-07)
 create_index('jhpce#bsp1-genotype', 'mailto:AndrewEJaffe@gmail.com')
 
-# /dcl01/lieber/RNAseq/Datasets/BrainSeq_hg38/Phase2/Genotype (most likely)
+# /dcl01/lieber/RNAseq/Datasets/BrainSeq_hg38/Phase2/Genotype/ (original)
+# /dcs05/lieber/liebercentral/libdDatasets_LIBD001/BrainSeq_hg38/Phase2/Genotype/ (since 2024-02-07)
 create_index('brainseq_phase2_genotypes', 'mailto:AndrewEJaffe@gmail.com')
 
 # TODO by Ryan
