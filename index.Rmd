@@ -64,7 +64,7 @@ create_index('jhpce#brainepi-polyA', 'https://app.globus.org/file-manager?origin
 
 # /dcl01/lieber/ajaffe/Amanda/NucVsCyt/pipeline_output/ (original)
 ## I can't find the data under /dcs05/lieber/liebercentral/dcl01Legacy_LIBD001/Amanda/ (2024-02-07)
-# /dcl01/lieber/ajaffe/Amanda/NucVsCyt/pipeline_output/ 
+# /dcs05/lieber/liebercentral/dcl01Legacy_LIBD001/Amanda/BrainRNACompartments/not_in_paper/NucVsCyt/pipeline_output/ (seems like it's this one, 2024-02-07)
 create_index('jhpce#fractionRNA', 'https://app.globus.org/file-manager?origin_id=f3cb5692-f3aa-11e9-be92-02fcc9cdd752&origin_path=%2F')
 
 # /dcl02/lieber/ajaffe/NatComm_StemCellData/
