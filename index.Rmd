@@ -111,6 +111,9 @@ create_index("jhpce#humanDeconvolutionBulkRNAseq", "https://app.globus.org/file-
 
 # /dcs04/lieber/lcolladotor/deconvolution_LIBD4030/Human_DLPFC_Deconvolution/raw-data/RNAscope_images/
 create_index("jhpce#humanDeconvolutionRNAScope", "https://app.globus.org/file-manager?origin_id=211e02e0-1fe4-4f48-8e43-371d3fbdf5da&origin_path=%2F")
+
+# /dcs05/lieber/lcolladotor/visiumStitched_LIBD1070/visiumStitched_brain
+create_index("jhpce#visiumStitched_brain", "https://app.globus.org/file-manager?origin_id=ed98ea3b-1f5b-4ef9-ba0d-9351abcc05e7&origin_path=%2F")
 ```
 
 For the following Globus share endpoints you need to request access given the type of data being shared.
