@@ -44,7 +44,7 @@ create_index('jhpce#bsp2-dlpfc', 'https://app.globus.org/file-manager?origin_id=
 
 # /dcl01/lieber/ajaffe/lab/brainseq_phase2/preprocessed_data/Hippo_RiboZero/brainseq/hippo/merged_fastq/ (original)
 # /dcs04/lieber/lcolladotor/BrainSEQ_LIBD001/brainseq_phase2/preprocessed_data/Hippo_RiboZero/brainseq/hippo/merged_fastq/ (since 2024-02-07)
-create_index('jhpce#bsp2-hippo', 'https://app.globus.org/file-manager?origin_id=fbe813f4-cf44-11e9-9cf3-0edb67dd7a14&origin_path=%2F')
+create_index('jhpce#bsp2-hippo', 'https://app.globus.org/file-manager?origin_id=83d37357-274b-4cd5-bb2a-5dbd2be655c8&origin_path=%2F')
 
 # /dcs04/lieber/lcolladotor/BrainSEQ_LIBD001/brainseq_phase2/preprocessed_data/DLPFC_RiboZero/HISAT2_out/
 create_index('jhpce#bsp2-dlpfc-bam', 'https://app.globus.org/file-manager?origin_id=836aeb49-f31c-45a9-b9ad-9fa860343ded&origin_path=%2F')
