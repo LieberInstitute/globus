@@ -40,7 +40,7 @@ create_index <- function(dirname, website) {
 ```{r 'indexes', results = 'asis', echo = FALSE}
 # /dcl01/lieber/ajaffe/lab/brainseq_phase2/preprocessed_data/DLPFC_RiboZero/brainseq/dlpfc/merged_fastq/ (original)
 # /dcs04/lieber/lcolladotor/BrainSEQ_LIBD001/brainseq_phase2/preprocessed_data/DLPFC_RiboZero/brainseq/dlpfc/merged_fastq/ (since 2024-02-07)
-create_index('jhpce#bsp2-dlpfc', 'https://app.globus.org/file-manager?origin_id=4abf617e-ce7f-11e9-939d-02ff96a5aa76&origin_path=%2F')
+create_index('jhpce#bsp2-dlpfc', 'https://app.globus.org/file-manager?origin_id=daf68420-f9de-42dd-a81b-3840fa43149d&origin_path=%2F')
 
 # /dcl01/lieber/ajaffe/lab/brainseq_phase2/preprocessed_data/Hippo_RiboZero/brainseq/hippo/merged_fastq/ (original)
 # /dcs04/lieber/lcolladotor/BrainSEQ_LIBD001/brainseq_phase2/preprocessed_data/Hippo_RiboZero/brainseq/hippo/merged_fastq/ (since 2024-02-07)
