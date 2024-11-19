@@ -123,8 +123,7 @@ For the following Globus share endpoints you need to request access given the ty
 # /dcs04/lieber/lcolladotor/BrainSEQ_LIBD001/brainseq_phase1/genotype_data/
 create_index('jhpce#bsp1-genotype', 'mailto:Geo.Pertea@libd.org')
 
-# /dcl01/lieber/RNAseq/Datasets/BrainSeq_hg38/Phase2/Genotype/ (original)
-# /dcs05/lieber/liebercentral/libdDatasets_LIBD001/BrainSeq_hg38/Phase2/Genotype/ (since 2024-02-07)
+# /dcs05/lieber/liebercentral/libdDatasets_LIBD001/BrainSeq_hg38/Phase2/Genotype/
 create_index('brainseq_phase2_genotypes', 'mailto:AndrewEJaffe@gmail.com')
 
 # TODO by Ryan
