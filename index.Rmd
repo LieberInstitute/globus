@@ -50,9 +50,8 @@ create_index('jhpce#bsp2-dlpfc-bam', 'https://app.globus.org/file-manager?origin
 # /dcs04/lieber/lcolladotor/BrainSEQ_LIBD001/brainseq_phase2/preprocessed_data/Hippo_RiboZero/HISAT2_out/
 create_index('jhpce#bsp2-hippo-bam', 'https://app.globus.org/file-manager?origin_id=a89e235c-dca1-4ef9-b1b8-62b68b71c9a4&origin_path=%2F')
 
-# /dcl01/lieber/ajaffe/CellSorting/RNAseq_pipeline/ (original)
-# /dcl01/lieber/ajaffe/CellSorting/RNAseq_pipeline/ (since 2024-02-07)
-create_index('jhpce#brainepi-cellsorted', 'https://app.globus.org/file-manager?origin_id=1d1096ba-cf44-11e9-939e-02ff96a5aa76&origin_path=%2F')
+# /dcs05/lieber/liebercentral/dcl01Legacy_LIBD001/CellSorting/RNAseq_pipeline
+create_index('jhpce#brainepi-cellsorted', 'https://app.globus.org/file-manager?origin_id=27aadd84-bb80-42a0-a2cf-b07869cf6a36&origin_path=%2F')
 
 # /dcl01/lieber/ajaffe/lab/brain-epigenomics/brainseq_pipeline/polyA_unstranded/ (original)
 # /dcs05/lieber/liebercentral/wgbsPrice2019_LIBD001/brainseq_pipeline/polyA_unstranded/ (since 2024-02-07)
