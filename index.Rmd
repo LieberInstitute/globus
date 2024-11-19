@@ -38,6 +38,9 @@ create_index <- function(dirname, website) {
 ```
 
 ```{r 'indexes', results = 'asis', echo = FALSE}
+# /dcs04/lieber/lcolladotor/BrainSEQ_LIBD001/brainseq_phase1/preprocessed_data/HISAT2_out/
+create_index('jhpce#bsp1-bam', 'https://app.globus.org/file-manager?origin_id=cf265d46-7f25-4fcb-94e3-87fd0f0925af&origin_path=%2F')
+
 # /dcs04/lieber/lcolladotor/BrainSEQ_LIBD001/brainseq_phase2/preprocessed_data/DLPFC_RiboZero/brainseq/dlpfc/merged_fastq/
 create_index('jhpce#bsp2-dlpfc', 'https://app.globus.org/file-manager?origin_id=daf68420-f9de-42dd-a81b-3840fa43149d&origin_path=%2F')
 
@@ -114,10 +117,6 @@ create_index("jhpce#ls_molecular-profiling_sce", "https://app.globus.org/file-ma
 For the following Globus share endpoints you need to request access given the type of data being shared.
 
 ```{r 'indexes_private', results = 'asis', echo = FALSE}
-# /dcl01/ajaffe/data/lab/brainseq_phase1/preprocessed_data/HISAT2_out/ (original)
-# /dcs04/lieber/lcolladotor/BrainSEQ_LIBD001/brainseq_phase1/preprocessed_data/HISAT2_out/ (since 2024-02-07)
-create_index('jhpce#bsp1-bam', 'mailto:AndrewEJaffe@gmail.com')
-
 # /dcl01/ajaffe/data/lab/brainseq_phase1/count_data/ (original)
 # /dcs04/lieber/lcolladotor/BrainSEQ_LIBD001/brainseq_phase1/count_data/ (since 2024-02-07)
 create_index('jhpce#bsp1-count', 'mailto:AndrewEJaffe@gmail.com')
