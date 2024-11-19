@@ -53,9 +53,8 @@ create_index('jhpce#bsp2-hippo-bam', 'https://app.globus.org/file-manager?origin
 # /dcs05/lieber/liebercentral/dcl01Legacy_LIBD001/CellSorting/RNAseq_pipeline
 create_index('jhpce#brainepi-cellsorted', 'https://app.globus.org/file-manager?origin_id=27aadd84-bb80-42a0-a2cf-b07869cf6a36&origin_path=%2F')
 
-# /dcl01/lieber/ajaffe/lab/brain-epigenomics/brainseq_pipeline/polyA_unstranded/ (original)
-# /dcs05/lieber/liebercentral/wgbsPrice2019_LIBD001/brainseq_pipeline/polyA_unstranded/ (since 2024-02-07)
-create_index('jhpce#brainepi-polyA', 'https://app.globus.org/file-manager?origin_id=5b3ab2c2-cf44-11e9-98e2-0a63aa6b37da&origin_path=%2F')
+# /dcs05/lieber/liebercentral/wgbsPrice2019_LIBD001/brainseq_pipeline/polyA_unstranded/
+create_index('jhpce#brainepi-polyA', 'https://app.globus.org/file-manager?origin_id=16ce0787-5060-4ea6-8633-992e8314ca0b&origin_path=%2F')
 
 # /dcl01/lieber/ajaffe/Amanda/NucVsCyt/pipeline_output/ (original)
 ## I can't find the data under /dcs05/lieber/liebercentral/dcl01Legacy_LIBD001/Amanda/ (2024-02-07)
