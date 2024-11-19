@@ -38,12 +38,10 @@ create_index <- function(dirname, website) {
 ```
 
 ```{r 'indexes', results = 'asis', echo = FALSE}
-# /dcl01/lieber/ajaffe/lab/brainseq_phase2/preprocessed_data/DLPFC_RiboZero/brainseq/dlpfc/merged_fastq/ (original)
-# /dcs04/lieber/lcolladotor/BrainSEQ_LIBD001/brainseq_phase2/preprocessed_data/DLPFC_RiboZero/brainseq/dlpfc/merged_fastq/ (since 2024-02-07)
+# /dcs04/lieber/lcolladotor/BrainSEQ_LIBD001/brainseq_phase2/preprocessed_data/DLPFC_RiboZero/brainseq/dlpfc/merged_fastq/
 create_index('jhpce#bsp2-dlpfc', 'https://app.globus.org/file-manager?origin_id=daf68420-f9de-42dd-a81b-3840fa43149d&origin_path=%2F')
 
-# /dcl01/lieber/ajaffe/lab/brainseq_phase2/preprocessed_data/Hippo_RiboZero/brainseq/hippo/merged_fastq/ (original)
-# /dcs04/lieber/lcolladotor/BrainSEQ_LIBD001/brainseq_phase2/preprocessed_data/Hippo_RiboZero/brainseq/hippo/merged_fastq/ (since 2024-02-07)
+# /dcs04/lieber/lcolladotor/BrainSEQ_LIBD001/brainseq_phase2/preprocessed_data/Hippo_RiboZero/brainseq/hippo/merged_fastq/
 create_index('jhpce#bsp2-hippo', 'https://app.globus.org/file-manager?origin_id=83d37357-274b-4cd5-bb2a-5dbd2be655c8&origin_path=%2F')
 
 # /dcs04/lieber/lcolladotor/BrainSEQ_LIBD001/brainseq_phase2/preprocessed_data/DLPFC_RiboZero/HISAT2_out/
