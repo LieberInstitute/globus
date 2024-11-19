@@ -124,11 +124,11 @@ For the following Globus share endpoints you need to request access given the ty
 create_index('jhpce#bsp1-genotype', 'mailto:Geo.Pertea@libd.org')
 
 # /dcs05/lieber/liebercentral/libdDatasets_LIBD001/BrainSeq_hg38/Phase2/Genotype/
-create_index('brainseq_phase2_genotypes', 'mailto:AndrewEJaffe@gmail.com')
+create_index('brainseq_phase2_genotypes', 'mailto:Geo.Pertea@libd.org')
 
 # TODO by Ryan
 create_index('WeberDivecha2023_locus_coeruleus', 'mailto:keri.martinowich@libd.org')
 
 # /dcs04/lieber/lcolladotor/pilotHb_LIBD001/Roche_Habenula/processed-data/08_bulk_snpPC/
-create_index("jhpce#habenulaPilotbulkDNAgenotype", "mailto:lcolladotor@gmail.com")
+create_index("jhpce#habenulaPilotbulkDNAgenotype", "mailto:Geo.Pertea@libd.org")
 ```
