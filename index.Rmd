@@ -56,10 +56,8 @@ create_index('jhpce#brainepi-cellsorted', 'https://app.globus.org/file-manager?o
 # /dcs05/lieber/liebercentral/wgbsPrice2019_LIBD001/brainseq_pipeline/polyA_unstranded/
 create_index('jhpce#brainepi-polyA', 'https://app.globus.org/file-manager?origin_id=16ce0787-5060-4ea6-8633-992e8314ca0b&origin_path=%2F')
 
-# /dcl01/lieber/ajaffe/Amanda/NucVsCyt/pipeline_output/ (original)
-## I can't find the data under /dcs05/lieber/liebercentral/dcl01Legacy_LIBD001/Amanda/ (2024-02-07)
-# /dcs05/lieber/liebercentral/dcl01Legacy_LIBD001/Amanda/BrainRNACompartments/not_in_paper/NucVsCyt/pipeline_output/ (seems like it's this one, 2024-02-07)
-create_index('jhpce#fractionRNA', 'https://app.globus.org/file-manager?origin_id=f3cb5692-f3aa-11e9-be92-02fcc9cdd752&origin_path=%2F')
+# /dcs05/lieber/liebercentral/dcl01Legacy_LIBD001/Amanda/BrainRNACompartments/not_in_paper/NucVsCyt/pipeline_output/
+create_index('jhpce#fractionRNA', 'https://app.globus.org/file-manager?origin_id=1bdade42-09f3-40eb-bd64-6779996084cb&origin_path=%2F')
 
 # /dcl02/lieber/ajaffe/NatComm_StemCellData/
 create_index('NatComm_StemCellData', 'https://app.globus.org/file-manager?origin_id=ce314562-0ae4-11ea-be9a-02fcc9cdd752&origin_path=%2F')
