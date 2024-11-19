@@ -41,6 +41,9 @@ create_index <- function(dirname, website) {
 # /dcs04/lieber/lcolladotor/BrainSEQ_LIBD001/brainseq_phase1/preprocessed_data/HISAT2_out/
 create_index('jhpce#bsp1-bam', 'https://app.globus.org/file-manager?origin_id=cf265d46-7f25-4fcb-94e3-87fd0f0925af&origin_path=%2F')
 
+# /dcs04/lieber/lcolladotor/BrainSEQ_LIBD001/brainseq_phase1/count_data/
+create_index('jhpce#bsp1-count', 'https://app.globus.org/file-manager?origin_id=02043523-1853-41b4-8bd8-b13d36f8eca7&origin_path=%2F')
+
 # /dcs04/lieber/lcolladotor/BrainSEQ_LIBD001/brainseq_phase2/preprocessed_data/DLPFC_RiboZero/brainseq/dlpfc/merged_fastq/
 create_index('jhpce#bsp2-dlpfc', 'https://app.globus.org/file-manager?origin_id=daf68420-f9de-42dd-a81b-3840fa43149d&origin_path=%2F')
 
@@ -117,13 +120,8 @@ create_index("jhpce#ls_molecular-profiling_sce", "https://app.globus.org/file-ma
 For the following Globus share endpoints you need to request access given the type of data being shared.
 
 ```{r 'indexes_private', results = 'asis', echo = FALSE}
-# /dcl01/ajaffe/data/lab/brainseq_phase1/count_data/ (original)
-# /dcs04/lieber/lcolladotor/BrainSEQ_LIBD001/brainseq_phase1/count_data/ (since 2024-02-07)
-create_index('jhpce#bsp1-count', 'mailto:AndrewEJaffe@gmail.com')
-
-# /dcl01/ajaffe/data/lab/brainseq_phase1/genotype_data/ (original)
-# /dcs04/lieber/lcolladotor/BrainSEQ_LIBD001/brainseq_phase1/genotype_data/ (since 2024-02-07)
-create_index('jhpce#bsp1-genotype', 'mailto:AndrewEJaffe@gmail.com')
+# /dcs04/lieber/lcolladotor/BrainSEQ_LIBD001/brainseq_phase1/genotype_data/
+create_index('jhpce#bsp1-genotype', 'mailto:Geo.Pertea@libd.org')
 
 # /dcl01/lieber/RNAseq/Datasets/BrainSeq_hg38/Phase2/Genotype/ (original)
 # /dcs05/lieber/liebercentral/libdDatasets_LIBD001/BrainSeq_hg38/Phase2/Genotype/ (since 2024-02-07)
@@ -133,5 +131,5 @@ create_index('brainseq_phase2_genotypes', 'mailto:AndrewEJaffe@gmail.com')
 create_index('WeberDivecha2023_locus_coeruleus', 'mailto:keri.martinowich@libd.org')
 
 # /dcs04/lieber/lcolladotor/pilotHb_LIBD001/Roche_Habenula/processed-data/08_bulk_snpPC/
-create_index("jhpce#habenulaPilotbulkDNAgenotype", "mailto:Kristen.Maynard@libd.org")
+create_index("jhpce#habenulaPilotbulkDNAgenotype", "mailto:lcolladotor@gmail.com")
 ```
