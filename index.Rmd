@@ -68,9 +68,8 @@ create_index('NatNeuro_TCF4_Data', 'https://app.globus.org/file-manager?origin_i
 # /dcl02/lieber/ajaffe/SpatialTranscriptomics/HumanPilot/10X/
 create_index('jhpce#HumanPilot10x', 'https://app.globus.org/file-manager?origin_id=ae756c8c-c211-11ea-8f24-0a21f750d19b&origin_path=%2F')
 
-# /dcl01/ajaffe/data/lab/singleCell/10x_pilot/FASTQ/ (original)
-# /dcs04/lieber/lcolladotor/rawDataTDSC_LIBD001/raw-data/2021-10-15_Tran2021_published (since 2024-02-07)
-create_index("jhpce#tran2021", "https://app.globus.org/file-manager?origin_id=e4e30efc-f166-11eb-ab64-d195c983855c&origin_path=%2F")
+# /dcs04/lieber/lcolladotor/rawDataTDSC_LIBD001/raw-data/2021-10-15_Tran2021_published
+create_index("jhpce#tran2021", "https://app.globus.org/file-manager?origin_id=74570c7d-98ff-4e10-ba5b-c735d209cf96&origin_path=%2F")
 
 # /dcs04/lieber/lcolladotor/deconvolution_LIBD4030/TREG_paper/
 create_index("jhpce#TREG_paper", "https://app.globus.org/file-manager?origin_id=9884e5b8-aae9-11ec-bade-cd8db799a66a&origin_path=%2F")
