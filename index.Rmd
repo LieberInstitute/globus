@@ -66,7 +66,7 @@ create_index('jhpce#brainepi-polyA', 'https://app.globus.org/file-manager?origin
 create_index('jhpce#fractionRNA', 'https://app.globus.org/file-manager?origin_id=1bdade42-09f3-40eb-bd64-6779996084cb&origin_path=%2F')
 
 # /dcl02/lieber/ajaffe/NatComm_StemCellData/
-create_index('NatComm_StemCellData', 'https://app.globus.org/file-manager?origin_id=ce314562-0ae4-11ea-be9a-02fcc9cdd752&origin_path=%2F')
+create_index('NatComm_StemCellData', 'https://app.globus.org/file-manager?origin_id=9e88f070-dc21-4c59-b5a9-3c40dad852d0&origin_path=%2F')
 
 # /dcl02/lieber/ajaffe/NatNeuro_TCF4_Data/
 create_index('NatNeuro_TCF4_Data', 'https://app.globus.org/file-manager?origin_id=a79ed5e2-0bdc-11ea-be9b-02fcc9cdd752&origin_path=%2F')
