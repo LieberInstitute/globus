@@ -119,6 +119,10 @@ create_index("jhpce#ls_molecular-profiling_sce", "https://app.globus.org/file-ma
 # /dcs04/lieber/marmaypag/spatialHYP_LIBD4195/Mulvey_HYP_suppData/
 create_index("jhpce#HYP_suppData", 
 "https://app.globus.org/file-manager?origin_id=fe6aff56-919e-4867-8dc8-0b14523c87bb&origin_path=%2F")
+
+# /dcs04/lieber/marmaypag/spatialdACC_LIBD4125/spatialdACC/processed-data/23-GLOBUS/
+create_index("jhpce#dACC_spatial", 
+"https://app.globus.org/file-manager?origin_id=f393195a-f3c4-4e87-93b6-98a97c4494d2&origin_path=%2F")
 ```
 
 For the following Globus share endpoints you need to request access given the type of data being shared.
