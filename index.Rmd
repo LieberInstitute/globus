@@ -123,6 +123,11 @@ create_index("jhpce#HYP_suppData",
 # /dcs04/lieber/marmaypag/spatialdACC_LIBD4125/spatialdACC/processed-data/23-GLOBUS/
 create_index("jhpce#dACC_spatial", 
 "https://app.globus.org/file-manager?origin_id=f393195a-f3c4-4e87-93b6-98a97c4494d2&origin_path=%2F")
+
+# /dcs04/lieber/marmaypag/spatialDLPFC_SCZ_LIBD4100/processed-data/globus/
+create_index("jhpce#spatialDLPFC_SCZ", 
+"https://app.globus.org/file-manager?origin_id=79537798-4065-4405-84e6-30f15c309cfb&origin_path=%2F")
+
 ```
 
 For the following Globus share endpoints you need to request access given the type of data being shared.
