@@ -89,8 +89,11 @@ create_index("jhpce#DLPFC_snRNAseq", "https://app.globus.org/file-manager?origin
 # /dcs04/lieber/lcolladotor/with10x_LIBD001/Visium_IF_AD/
 create_index("jhpce#Visium_SPG_AD", "https://app.globus.org/file-manager?origin_id=03252306-c509-11ed-961f-4b6fcc022e5a&path=%2F")
 
+# /dcs04/lieber/marmaypag/spatialNac_LIBD4125/spatial_NAc/ older version of NAc?
+# create_index("jhpce#spatial_NAc", "https://app.globus.org/file-manager?origin_id=b8faf5f2-d319-11ed-8ebb-fdf94a47aaa3&path=%2F")
+
 # /dcs04/lieber/marmaypag/spatialNac_LIBD4125/spatial_NAc/
-create_index("jhpce#spatial_NAc", "https://app.globus.org/file-manager?origin_id=b8faf5f2-d319-11ed-8ebb-fdf94a47aaa3&path=%2F")
+create_index("jhpce#spatial_NAc", "https://app.globus.org/file-manager?origin_id=1d521cdd-4319-4719-acae-69d9d1ddc843&origin_path=%2F")
 
 # /dcs04/lieber/marmaypag/pilotLS_LIBD1070/snRNAseq_mouse/
 create_index("jhpce#septum_lateral", "https://app.globus.org/file-manager?origin_id=4a246882-1209-11ee-bdd3-a3018385fcef&path=%2F")
@@ -127,6 +130,18 @@ create_index("jhpce#dACC_spatial",
 # /dcs04/lieber/marmaypag/spatialDLPFC_SCZ_LIBD4100/processed-data/globus/
 create_index("jhpce#spatialDLPFC_SCZ", 
 "https://app.globus.org/file-manager?origin_id=79537798-4065-4405-84e6-30f15c309cfb&origin_path=%2F")
+
+# /dcs05/lieber/marmaypag/LFF_spatialERC_LIBD4140/LFF_spatial_ERC/processed-data/20_globus
+create_index("jhpce#LFF_ERC", 
+"https://app.globus.org/file-manager?origin_id=a4f4e10a-9238-48a1-a03a-096b95b4c406&origin_path=%2F")
+
+#  /dcs05/lieber/marmaypag/LFF_spatialLC_LIBD4140/LFF_spatial_LC/processed-data/17_globus/ 
+create_index("jhpce#LFF_LC", 
+"https://app.globus.org/file-manager?origin_id=998c0526-fa41-4ed4-8079-fd944b27c39a&origin_path=%2F")
+
+# /dcs04/lieber/marmaypag/BLA_crossSpecies_LIBD1070/BLA_crossSpecies/processed-data/12_globus/
+create_index("jhpce#BLA_crossSpecies", 
+"https://app.globus.org/file-manager?origin_id=ec90c015-db19-4c91-8a1a-8470dfd6e954&origin_path=%2F")
 
 ```
 
