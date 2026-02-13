@@ -65,11 +65,11 @@ create_index('jhpce#brainepi-polyA', 'https://app.globus.org/file-manager?origin
 # /dcs05/lieber/liebercentral/dcl01Legacy_LIBD001/Amanda/BrainRNACompartments/not_in_paper/NucVsCyt/pipeline_output/
 create_index('jhpce#fractionRNA', 'https://app.globus.org/file-manager?origin_id=1bdade42-09f3-40eb-bd64-6779996084cb&origin_path=%2F')
 
-# /dcl02/lieber/ajaffe/NatComm_StemCellData/
-create_index('NatComm_StemCellData', 'https://app.globus.org/file-manager?origin_id=9e88f070-dc21-4c59-b5a9-3c40dad852d0&origin_path=%2F')
+# /dcs05/legacy-dcl01-lieber/liebercentral/ajaffe_LIBD001/NatComm_StemCellData/
+create_index('NatComm_StemCellData', 'https://app.globus.org/file-manager?origin_id=7d5603ed-bb89-473b-a41c-097ae35badd0&origin_path=%2F')
 
-# /dcl02/lieber/ajaffe/NatNeuro_TCF4_Data/
-create_index('NatNeuro_TCF4_Data', 'https://app.globus.org/file-manager?origin_id=a79ed5e2-0bdc-11ea-be9b-02fcc9cdd752&origin_path=%2F')
+# /dcs05/legacy-dcl01-lieber/liebercentral/ajaffe_LIBD001/NatNeuro_TCF4_Data/
+create_index('NatNeuro_TCF4_Data', 'https://app.globus.org/file-manager?origin_id=cb58a516-ae02-4701-9f46-7fe5add3a01d&origin_path=%2F')
 
 # /dcl02/lieber/ajaffe/SpatialTranscriptomics/HumanPilot/10X/
 create_index('jhpce#HumanPilot10x', 'https://app.globus.org/file-manager?origin_id=ae756c8c-c211-11ea-8f24-0a21f750d19b&origin_path=%2F')
@@ -98,8 +98,8 @@ create_index("jhpce#spatial_NAc", "https://app.globus.org/file-manager?origin_id
 # /dcs04/lieber/marmaypag/pilotLS_LIBD1070/snRNAseq_mouse/
 create_index("jhpce#septum_lateral", "https://app.globus.org/file-manager?origin_id=4a246882-1209-11ee-bdd3-a3018385fcef&path=%2F")
 
-# /dcl02/lieber/ajaffe/Roche_Habenula/preprocessed_data/FASTQ/
-create_index("jhpce#habenulaPilotbulkRNAseq", "https://app.globus.org/file-manager?origin_id=4624b994-6b7a-4a70-b504-1615411a74e5&origin_path=%2F")
+# /dcs04/lieber/lcolladotor/pilotHb_LIBD001/Roche_Habenula/preprocessed_data/FASTQ/
+create_index("jhpce#habenulaPilotbulkRNAseq", "https://app.globus.org/file-manager?origin_id=c896afcb-c4f0-42fa-a98d-9faf40a5f075&origin_path=%2F")
 
 # /dcs04/lieber/lcolladotor/pilotHb_LIBD001/Roche_Habenula/raw-data/FASTQ_snRNAseq/
 create_index("jhpce#habenulaPilotsnRNAseq", "https://app.globus.org/file-manager?origin_id=3727999a-15bd-41ca-bf79-8a7602dd0ffa&origin_path=%2F")
