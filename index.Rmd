@@ -71,8 +71,8 @@ create_index('NatComm_StemCellData', 'https://app.globus.org/file-manager?origin
 # /dcs05/legacy-dcl01-lieber/liebercentral/ajaffe_LIBD001/NatNeuro_TCF4_Data/
 create_index('NatNeuro_TCF4_Data', 'https://app.globus.org/file-manager?origin_id=cb58a516-ae02-4701-9f46-7fe5add3a01d&origin_path=%2F')
 
-# /dcl02/lieber/ajaffe/SpatialTranscriptomics/HumanPilot/10X/
-create_index('jhpce#HumanPilot10x', 'https://app.globus.org/file-manager?origin_id=ae756c8c-c211-11ea-8f24-0a21f750d19b&origin_path=%2F')
+# /dcs04/lieber/lcolladotor/with10x_LIBD001/HumanPilot/10X/
+create_index('jhpce#HumanPilot10x', 'https://app.globus.org/file-manager?origin_id=abdefb8c-731b-4907-a89d-9b5649d9967a&origin_path=%2F')
 
 # /dcs04/lieber/lcolladotor/rawDataTDSC_LIBD001/raw-data/2021-10-15_Tran2021_published
 create_index("jhpce#tran2021", "https://app.globus.org/file-manager?origin_id=74570c7d-98ff-4e10-ba5b-c735d209cf96&origin_path=%2F")
