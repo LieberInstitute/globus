@@ -143,6 +143,10 @@ create_index("jhpce#LFF_LC",
 create_index("jhpce#BLA_crossSpecies", 
 "https://app.globus.org/file-manager?origin_id=ec90c015-db19-4c91-8a1a-8470dfd6e954&origin_path=%2F")
 
+# /dcs05/lieber/marmaypag/spatransfer-manuscript_LIBD001/spatransfer-manuscript/processed-data/globus/
+create_index("jhpce#spatransfer", 
+"https://app.globus.org/file-manager?origin_id=95210672-c761-4ffd-b239-c71fea83014a&origin_path=%2F")
+
 ```
 
 For the following Globus share endpoints you need to request access given the type of data being shared.
