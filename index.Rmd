@@ -147,6 +147,10 @@ create_index("jhpce#BLA_crossSpecies",
 create_index("jhpce#spatransfer", 
 "https://app.globus.org/file-manager?origin_id=95210672-c761-4ffd-b239-c71fea83014a&origin_path=%2F")
 
+# /dcs05/lieber/liebercentral/libdDatasets_LIBD001/microRNA/
+create_index("jhpce#microRNA_FASTQ",
+"https://app.globus.org/file-manager?origin_id=98e3b29f-1691-4c2d-a59f-1fc0eb888373&origin_path=%2F")
+
 ```
 
 For the following Globus share endpoints you need to request access given the type of data being shared.
