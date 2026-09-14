@@ -147,6 +147,10 @@ create_index("jhpce#BLA_crossSpecies",
 create_index("jhpce#spatransfer", 
 "https://app.globus.org/file-manager?origin_id=95210672-c761-4ffd-b239-c71fea83014a&origin_path=%2F")
 
+# /dcs05/lieber/marmaypag/xenium_NAC_LIBD4125/xenium_NAC/processed-data/13_app/
+create_index("jhpce#NAc_AP", 
+"https://app.globus.org/file-manager?origin_id=6aa1f518-e45f-4c4c-adde-2970f42908e1&origin_path=%2F")
+
 ```
 
 For the following Globus share endpoints you need to request access given the type of data being shared.
