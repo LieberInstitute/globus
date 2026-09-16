@@ -39,7 +39,7 @@ create_index <- function(dirname, website, extra = NULL) {
 
 ```{r 'indexes', results = 'asis', echo = FALSE}
 # /dcs04/lieber/lcolladotor/BrainSEQ_LIBD001/brainseq_phase1/preprocessed_data/HISAT2_out/
-create_index('jhpce#bsp1-bam', 'https://app.globus.org/file-manager?origin_id=cf265d46-7f25-4fcb-94e3-87fd0f0925af&origin_path=%2F', 'Jaffe et al., 2018, doi: [10.1038/s41593-018-0197-y](https://doi.org/10.1038/s41593-018-0197-y).')
+create_index('jhpce#bsp1-bam', 'https://app.globus.org/file-manager?origin_id=cf265d46-7f25-4fcb-94e3-87fd0f0925af&origin_path=%2F', 'Jaffe et al., 2018, doi: [10.1038/s41593-018-0197-y](https://doi.org/10.1038/s41593-018-0197-y) (GitHub: [brainseq_phase1](https://github.com/LieberInstitute/brainseq_phase1)).')
 
 # /dcs04/lieber/lcolladotor/BrainSEQ_LIBD001/brainseq_phase1/count_data/
 create_index('jhpce#bsp1-count', 'https://app.globus.org/file-manager?origin_id=02043523-1853-41b4-8bd8-b13d36f8eca7&origin_path=%2F')
