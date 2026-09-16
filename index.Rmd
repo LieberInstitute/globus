@@ -2,7 +2,7 @@
 title: "LIBD Globus"
 ---
 
-This website contains the latest list of Globus Share Endpoints created by the LIBD Data Science Team 1. For more information about how to use Globus check the [JHPCE Globus tutorial website](https://jhpce.jhu.edu/knowledge-base/using-globus-to-transfer-files/).
+This website contains the latest list of Globus Share Endpoints created by the LIBD Data Science Team 1. For more information about how to use Globus check the [JHPCE Globus tutorial website](https://jhpce.jhu.edu/access/globus/).
 
 ```{r 'create_index', echo = FALSE}
 create_index <- function(dirname, website) {
