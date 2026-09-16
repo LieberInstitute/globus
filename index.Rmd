@@ -5,7 +5,7 @@ title: "LIBD Globus"
 This website contains the latest list of Globus Share Endpoints created by the LIBD Data Science Team 1. For more information about how to use Globus check the [JHPCE Globus tutorial website](https://jhpce.jhu.edu/access/globus/).
 
 ```{r 'create_index', echo = FALSE}
-create_index <- function(dirname, website) {
+create_index <- function(dirname, website, extra = NULL) {
     
     html <- paste0(
 '<html>
@@ -32,14 +32,14 @@ create_index <- function(dirname, website) {
     cat(html, file = index)
     
     ## Make link
-    markdown_link <- glue::glue('* [`{dirname}`]({dirname_valid}/index.html)')
+    markdown_link <- if(!missing(extra)) glue::glue('* [`{dirname}`]({dirname_valid}/index.html) {extra}') else glue::glue('* [`{dirname}`]({dirname_valid}/index.html)')
     return(markdown_link)
 }
 ```
 
 ```{r 'indexes', results = 'asis', echo = FALSE}
 # /dcs04/lieber/lcolladotor/BrainSEQ_LIBD001/brainseq_phase1/preprocessed_data/HISAT2_out/
-create_index('jhpce#bsp1-bam', 'https://app.globus.org/file-manager?origin_id=cf265d46-7f25-4fcb-94e3-87fd0f0925af&origin_path=%2F')
+create_index('jhpce#bsp1-bam', 'https://app.globus.org/file-manager?origin_id=cf265d46-7f25-4fcb-94e3-87fd0f0925af&origin_path=%2F', 'Jaffe et al., 2018, doi: [10.1038/s41593-018-0197-y](https://doi.org/10.1038/s41593-018-0197-y).')
 
 # /dcs04/lieber/lcolladotor/BrainSEQ_LIBD001/brainseq_phase1/count_data/
 create_index('jhpce#bsp1-count', 'https://app.globus.org/file-manager?origin_id=02043523-1853-41b4-8bd8-b13d36f8eca7&origin_path=%2F')
