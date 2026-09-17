@@ -42,82 +42,82 @@ create_index <- function(dirname, website, extra = NULL) {
 create_index('jhpce#bsp1-bam', 'https://app.globus.org/file-manager?origin_id=cf265d46-7f25-4fcb-94e3-87fd0f0925af&origin_path=%2F', 'Jaffe et al., 2018, doi: [10.1038/s41593-018-0197-y](https://doi.org/10.1038/s41593-018-0197-y) (GitHub: [brainseq_phase1](https://github.com/LieberInstitute/brainseq_phase1)).')
 
 # /dcs04/lieber/lcolladotor/BrainSEQ_LIBD001/brainseq_phase1/count_data/
-create_index('jhpce#bsp1-count', 'https://app.globus.org/file-manager?origin_id=02043523-1853-41b4-8bd8-b13d36f8eca7&origin_path=%2F')
+create_index('jhpce#bsp1-count', 'https://app.globus.org/file-manager?origin_id=02043523-1853-41b4-8bd8-b13d36f8eca7&origin_path=%2F', 'Jaffe et al., 2018, doi: [10.1038/s41593-018-0197-y](https://doi.org/10.1038/s41593-018-0197-y) (GitHub: [brainseq_phase1](https://github.com/LieberInstitute/brainseq_phase1)).')
 
 # /dcs04/lieber/lcolladotor/BrainSEQ_LIBD001/brainseq_phase2/preprocessed_data/DLPFC_RiboZero/brainseq/dlpfc/merged_fastq/
-create_index('jhpce#bsp2-dlpfc', 'https://app.globus.org/file-manager?origin_id=daf68420-f9de-42dd-a81b-3840fa43149d&origin_path=%2F')
+create_index('jhpce#bsp2-dlpfc', 'https://app.globus.org/file-manager?origin_id=daf68420-f9de-42dd-a81b-3840fa43149d&origin_path=%2F', 'Collado-Torres et al., 2019, doi: [10.1016/j.neuron.2019.05.013](https://doi.org/10.1016/j.neuron.2019.05.013) (GitHub: [brainseq_phase2](https://github.com/LieberInstitute/brainseq_phase2)).')
 
 # /dcs04/lieber/lcolladotor/BrainSEQ_LIBD001/brainseq_phase2/preprocessed_data/Hippo_RiboZero/brainseq/hippo/merged_fastq/
-create_index('jhpce#bsp2-hippo', 'https://app.globus.org/file-manager?origin_id=83d37357-274b-4cd5-bb2a-5dbd2be655c8&origin_path=%2F')
+create_index('jhpce#bsp2-hippo', 'https://app.globus.org/file-manager?origin_id=83d37357-274b-4cd5-bb2a-5dbd2be655c8&origin_path=%2F', 'Collado-Torres et al., 2019, doi: [10.1016/j.neuron.2019.05.013](https://doi.org/10.1016/j.neuron.2019.05.013) (GitHub: [brainseq_phase2](https://github.com/LieberInstitute/brainseq_phase2)).')
 
 # /dcs04/lieber/lcolladotor/BrainSEQ_LIBD001/brainseq_phase2/preprocessed_data/DLPFC_RiboZero/HISAT2_out/
-create_index('jhpce#bsp2-dlpfc-bam', 'https://app.globus.org/file-manager?origin_id=836aeb49-f31c-45a9-b9ad-9fa860343ded&origin_path=%2F')
+create_index('jhpce#bsp2-dlpfc-bam', 'https://app.globus.org/file-manager?origin_id=836aeb49-f31c-45a9-b9ad-9fa860343ded&origin_path=%2F', 'Collado-Torres et al., 2019, doi: [10.1016/j.neuron.2019.05.013](https://doi.org/10.1016/j.neuron.2019.05.013) (GitHub: [brainseq_phase2](https://github.com/LieberInstitute/brainseq_phase2)).')
 
 # /dcs04/lieber/lcolladotor/BrainSEQ_LIBD001/brainseq_phase2/preprocessed_data/Hippo_RiboZero/HISAT2_out/
-create_index('jhpce#bsp2-hippo-bam', 'https://app.globus.org/file-manager?origin_id=a89e235c-dca1-4ef9-b1b8-62b68b71c9a4&origin_path=%2F')
+create_index('jhpce#bsp2-hippo-bam', 'https://app.globus.org/file-manager?origin_id=a89e235c-dca1-4ef9-b1b8-62b68b71c9a4&origin_path=%2F', 'Collado-Torres et al., 2019, doi: [10.1016/j.neuron.2019.05.013](https://doi.org/10.1016/j.neuron.2019.05.013) (GitHub: [brainseq_phase2](https://github.com/LieberInstitute/brainseq_phase2)).')
 
 # /dcs05/lieber/liebercentral/dcl01Legacy_LIBD001/CellSorting/RNAseq_pipeline
 create_index('jhpce#brainepi-cellsorted', 'https://app.globus.org/file-manager?origin_id=27aadd84-bb80-42a0-a2cf-b07869cf6a36&origin_path=%2F')
 
 # /dcs05/lieber/liebercentral/wgbsPrice2019_LIBD001/brainseq_pipeline/polyA_unstranded/
-create_index('jhpce#brainepi-polyA', 'https://app.globus.org/file-manager?origin_id=16ce0787-5060-4ea6-8633-992e8314ca0b&origin_path=%2F')
+create_index('jhpce#brainepi-polyA', 'https://app.globus.org/file-manager?origin_id=16ce0787-5060-4ea6-8633-992e8314ca0b&origin_path=%2F', 'Price, Collado-Torres et al., 2019, doi: [10.1186/s13059-019-1805-1](https://doi.org/10.1186/s13059-019-1805-1) (GitHub: [brain-epigenomics](https://github.com/LieberInstitute/brain-epigenomics)).')
 
 # /dcs05/lieber/liebercentral/dcl01Legacy_LIBD001/Amanda/BrainRNACompartments/not_in_paper/NucVsCyt/pipeline_output/
-create_index('jhpce#fractionRNA', 'https://app.globus.org/file-manager?origin_id=1bdade42-09f3-40eb-bd64-6779996084cb&origin_path=%2F')
+create_index('jhpce#fractionRNA', 'https://app.globus.org/file-manager?origin_id=1bdade42-09f3-40eb-bd64-6779996084cb&origin_path=%2F', 'Price et al., 2019, doi: [10.1101/gr.250217.119](https://doi.org/10.1101/gr.250217.119) (GitHub: [BrainRNACompartments](https://github.com/LieberInstitute/BrainRNACompartments)).')
 
 # /dcs05/legacy-dcl01-lieber/liebercentral/ajaffe_LIBD001/NatComm_StemCellData/
-create_index('NatComm_StemCellData', 'https://app.globus.org/file-manager?origin_id=7d5603ed-bb89-473b-a41c-097ae35badd0&origin_path=%2F')
+create_index('NatComm_StemCellData', 'https://app.globus.org/file-manager?origin_id=7d5603ed-bb89-473b-a41c-097ae35badd0&origin_path=%2F', 'Burke, Chenoweth et al., 2020, doi: [10.1038/s41467-019-14266-z](https://doi.org/10.1038/s41467-019-14266-z) (GitHub: [libd_stem_timecourse](https://github.com/LieberInstitute/libd_stem_timecourse)).')
 
 # /dcs05/legacy-dcl01-lieber/liebercentral/ajaffe_LIBD001/NatNeuro_TCF4_Data/
-create_index('NatNeuro_TCF4_Data', 'https://app.globus.org/file-manager?origin_id=cb58a516-ae02-4701-9f46-7fe5add3a01d&origin_path=%2F')
+create_index('NatNeuro_TCF4_Data', 'https://app.globus.org/file-manager?origin_id=cb58a516-ae02-4701-9f46-7fe5add3a01d&origin_path=%2F', 'Phan, Bohlen et al., 2020, doi: [10.1038/s41593-019-0578-x](https://doi.org/10.1038/s41593-019-0578-x) (GitHub: [PTHS_mouse](https://github.com/LieberInstitute/PTHS_mouse)).')
 
 # /dcs04/lieber/lcolladotor/with10x_LIBD001/HumanPilot/10X/
-create_index('jhpce#HumanPilot10x', 'https://app.globus.org/file-manager?origin_id=abdefb8c-731b-4907-a89d-9b5649d9967a&origin_path=%2F')
+create_index('jhpce#HumanPilot10x', 'https://app.globus.org/file-manager?origin_id=abdefb8c-731b-4907-a89d-9b5649d9967a&origin_path=%2F', 'Maynard, Collado-Torres et al., 2021, doi: [10.1038/s41593-020-00787-0](https://doi.org/10.1038/s41593-020-00787-0) (GitHub: [HumanPilot](https://github.com/LieberInstitute/HumanPilot)).')
 
 # /dcs04/lieber/lcolladotor/rawDataTDSC_LIBD001/raw-data/2021-10-15_Tran2021_published
-create_index("jhpce#tran2021", "https://app.globus.org/file-manager?origin_id=74570c7d-98ff-4e10-ba5b-c735d209cf96&origin_path=%2F")
+create_index("jhpce#tran2021", "https://app.globus.org/file-manager?origin_id=74570c7d-98ff-4e10-ba5b-c735d209cf96&origin_path=%2F", 'Tran, Maynard et al., 2021, doi: [10.1016/j.neuron.2021.09.001](https://doi.org/10.1016/j.neuron.2021.09.001) (GitHub: [10xPilot_snRNAseq-human](https://github.com/LieberInstitute/10xPilot_snRNAseq-human)).')
 
 # /dcs04/lieber/lcolladotor/deconvolution_LIBD4030/TREG_paper/
-create_index("jhpce#TREG_paper", "https://app.globus.org/file-manager?origin_id=9884e5b8-aae9-11ec-bade-cd8db799a66a&origin_path=%2F")
+create_index("jhpce#TREG_paper", "https://app.globus.org/file-manager?origin_id=9884e5b8-aae9-11ec-bade-cd8db799a66a&origin_path=%2F", 'Huuki-Myers et al., 2023, doi: [10.1186/s13059-023-03066-w](https://doi.org/10.1186/s13059-023-03066-w) (GitHub: [TREG](https://github.com/LieberInstitute/TREG)).')
 
 # /dcs04/lieber/lcolladotor/spatialDLPFC_LIBD4035/spatialDLPFC/
-create_index("jhpce#spatialDLPFC", "https://app.globus.org/file-manager?origin_id=6cd81564-ed47-11ec-8358-cd84b862b754&origin_path=%2F")
+create_index("jhpce#spatialDLPFC", "https://app.globus.org/file-manager?origin_id=6cd81564-ed47-11ec-8358-cd84b862b754&origin_path=%2F", 'Huuki-Myers et al., 2024, doi: [10.1126/science.adh1938](https://doi.org/10.1126/science.adh1938) (GitHub: [spatialDLPFC](https://github.com/LieberInstitute/spatialDLPFC)).')
 
 # /dcs04/lieber/lcolladotor/deconvolution_LIBD4030/DLPFC_snRNAseq/
-create_index("jhpce#DLPFC_snRNAseq", "https://app.globus.org/file-manager?origin_id=6f9322c4-5eaf-11ed-b0b5-bfe7e7197080&origin_path=%2F")
+create_index("jhpce#DLPFC_snRNAseq", "https://app.globus.org/file-manager?origin_id=6f9322c4-5eaf-11ed-b0b5-bfe7e7197080&origin_path=%2F", 'Huuki-Myers et al., 2024, doi: [10.1126/science.adh1938](https://doi.org/10.1126/science.adh1938) (GitHub: [DLPFC_snRNAseq](https://github.com/LieberInstitute/DLPFC_snRNAseq)).')
 
 # /dcs04/lieber/lcolladotor/with10x_LIBD001/Visium_IF_AD/
-create_index("jhpce#Visium_SPG_AD", "https://app.globus.org/file-manager?origin_id=03252306-c509-11ed-961f-4b6fcc022e5a&path=%2F")
+create_index("jhpce#Visium_SPG_AD", "https://app.globus.org/file-manager?origin_id=03252306-c509-11ed-961f-4b6fcc022e5a&path=%2F", 'Kwon, Parthiban et al., 2023, doi: [10.1126/science.adh1938](https://doi.org/10.1089/genbio.2023.0019) (GitHub: [Visium_SPG_AD](https://github.com/LieberInstitute/Visium_SPG_AD)).')
 
 # /dcs04/lieber/marmaypag/spatialNac_LIBD4125/spatial_NAc/ older version of NAc?
-# create_index("jhpce#spatial_NAc", "https://app.globus.org/file-manager?origin_id=b8faf5f2-d319-11ed-8ebb-fdf94a47aaa3&path=%2F")
+# create_index("jhpce#spatial_NAc", "https://app.globus.org/file-manager?origin_id=b8faf5f2-d319-11ed-8ebb-fdf94a47aaa3&path=%2F", 'Ravichandran, Bach et al., 2026, doi: [10.1016/j.neuron.2026.06.002](http://dx.doi.org/10.1016/j.neuron.2026.06.002) (GitHub: [spatial_NAc](https://github.com/LieberInstitute/spatial_NAc)).')
 
 # /dcs04/lieber/marmaypag/spatialNac_LIBD4125/spatial_NAc/
-create_index("jhpce#spatial_NAc", "https://app.globus.org/file-manager?origin_id=1d521cdd-4319-4719-acae-69d9d1ddc843&origin_path=%2F")
+create_index("jhpce#spatial_NAc", "https://app.globus.org/file-manager?origin_id=1d521cdd-4319-4719-acae-69d9d1ddc843&origin_path=%2F", 'Ravichandran, Bach et al., 2026, doi: [10.1016/j.neuron.2026.06.002](http://dx.doi.org/10.1016/j.neuron.2026.06.002) (GitHub: [spatial_NAc](https://github.com/LieberInstitute/spatial_NAc)).')
 
 # /dcs04/lieber/marmaypag/pilotLS_LIBD1070/snRNAseq_mouse/
-create_index("jhpce#septum_lateral", "https://app.globus.org/file-manager?origin_id=4a246882-1209-11ee-bdd3-a3018385fcef&path=%2F")
+create_index("jhpce#septum_lateral", "https://app.globus.org/file-manager?origin_id=4a246882-1209-11ee-bdd3-a3018385fcef&path=%2F", 'Rodriguez, Tran et al., 2024, doi: [10.1038/s41398-024-02758-6](http://dx.doi.org/10.1038/s41398-024-02758-6) (GitHub: [septum_lateral](https://github.com/LieberInstitute/septum_lateral)).')
 
 # /dcs04/lieber/lcolladotor/pilotHb_LIBD001/Roche_Habenula/preprocessed_data/FASTQ/
-create_index("jhpce#habenulaPilotbulkRNAseq", "https://app.globus.org/file-manager?origin_id=c896afcb-c4f0-42fa-a98d-9faf40a5f075&origin_path=%2F")
+create_index("jhpce#habenulaPilotbulkRNAseq", "https://app.globus.org/file-manager?origin_id=c896afcb-c4f0-42fa-a98d-9faf40a5f075&origin_path=%2F", 'Yalcinbas et al., 2025, doi: [10.1176/appi.ajp.20240776](https://doi.org/10.1176/appi.ajp.20240776) (GitHub: [habenula_pilot](https://github.com/LieberInstitute/habenula_pilot)).')
 
 # /dcs04/lieber/lcolladotor/pilotHb_LIBD001/Roche_Habenula/raw-data/FASTQ_snRNAseq/
-create_index("jhpce#habenulaPilotsnRNAseq", "https://app.globus.org/file-manager?origin_id=3727999a-15bd-41ca-bf79-8a7602dd0ffa&origin_path=%2F")
+create_index("jhpce#habenulaPilotsnRNAseq", "https://app.globus.org/file-manager?origin_id=3727999a-15bd-41ca-bf79-8a7602dd0ffa&origin_path=%2F", 'Yalcinbas et al., 2025, doi: [10.1176/appi.ajp.20240776](https://doi.org/10.1176/appi.ajp.20240776) (GitHub: [habenula_pilot](https://github.com/LieberInstitute/habenula_pilot)).')
 
 # /dcs04/lieber/lcolladotor/pilotHb_LIBD001/Roche_Habenula/raw-data/RNAscope_images/
-create_index("jhpce#habenulaPilotRNAscope", "https://app.globus.org/file-manager?origin_id=efc055d5-7686-4957-814c-89e1392d4f42&origin_path=%2F")
+create_index("jhpce#habenulaPilotRNAscope", "https://app.globus.org/file-manager?origin_id=efc055d5-7686-4957-814c-89e1392d4f42&origin_path=%2F", 'Yalcinbas et al., 2025, doi: [10.1176/appi.ajp.20240776](https://doi.org/10.1176/appi.ajp.20240776) (GitHub: [habenula_pilot](https://github.com/LieberInstitute/habenula_pilot)).')
 
 # /dcs04/lieber/lcolladotor/deconvolution_LIBD4030/Human_DLPFC_Deconvolution/raw-data/bulkRNA/
-create_index("jhpce#humanDeconvolutionBulkRNAseq", "https://app.globus.org/file-manager?origin_id=17ea5635-440c-4d4d-9b20-092463b1bdc4&origin_path=%2F")
+create_index("jhpce#humanDeconvolutionBulkRNAseq", "https://app.globus.org/file-manager?origin_id=17ea5635-440c-4d4d-9b20-092463b1bdc4&origin_path=%2F", 'Huuki-Myers, Montgomery et al., 2025, doi: [10.1186/s13059-025-03552-3](http://dx.doi.org/10.1186/s13059-025-03552-3) (GitHub: [Human_DLPFC_Deconvolution](https://github.com/LieberInstitute/Human_DLPFC_Deconvolution)).')
 
 # /dcs04/lieber/lcolladotor/deconvolution_LIBD4030/Human_DLPFC_Deconvolution/raw-data/RNAscope_images/
-create_index("jhpce#humanDeconvolutionRNAScope", "https://app.globus.org/file-manager?origin_id=211e02e0-1fe4-4f48-8e43-371d3fbdf5da&origin_path=%2F")
+create_index("jhpce#humanDeconvolutionRNAScope", "https://app.globus.org/file-manager?origin_id=211e02e0-1fe4-4f48-8e43-371d3fbdf5da&origin_path=%2F", 'Huuki-Myers, Montgomery et al., 2025, doi: [10.1186/s13059-025-03552-3](http://dx.doi.org/10.1186/s13059-025-03552-3) (GitHub: [Human_DLPFC_Deconvolution](https://github.com/LieberInstitute/Human_DLPFC_Deconvolution)).')
 
 # /dcs05/lieber/lcolladotor/visiumStitched_LIBD1070/visiumStitched_brain
-create_index("jhpce#visiumStitched_brain", "https://app.globus.org/file-manager?origin_id=ed98ea3b-1f5b-4ef9-ba0d-9351abcc05e7&origin_path=%2F")
+create_index("jhpce#visiumStitched_brain", "https://app.globus.org/file-manager?origin_id=ed98ea3b-1f5b-4ef9-ba0d-9351abcc05e7&origin_path=%2F", 'Eagles et al., 2024, doi: [10.1186/s12864-024-10991-y](http://dx.doi.org/10.1186/s12864-024-10991-y) (GitHub: [visiumStitched_brain](https://github.com/LieberInstitute/visiumStitched_brain)).')
 
 # /dcs04/lieber/marmaypag/ls_molecular-profiling_LIBD1070/ls_molecular-profiling/processed-data/globus/
-create_index("jhpce#ls_molecular-profiling_sce", "https://app.globus.org/file-manager?origin_id=4a94e057-0063-491f-b735-6fc06a136f9e&origin_path=%2F")
+create_index("jhpce#ls_molecular-profiling_sce", "https://app.globus.org/file-manager?origin_id=4a94e057-0063-491f-b735-6fc06a136f9e&origin_path=%2F", 'Phillips, Oh et al., 2025, doi: [10.1016/j.isci.2025.111820](http://dx.doi.org/10.1016/j.isci.2025.111820) (GitHub: [ls_molecular-profiling](https://github.com/LieberInstitute/ls_molecular-profiling)).')
 
 # /dcs04/lieber/marmaypag/spatialHYP_LIBD4195/Mulvey_HYP_suppData/
 create_index("jhpce#HYP_suppData", 
@@ -125,19 +125,19 @@ create_index("jhpce#HYP_suppData",
 
 # /dcs04/lieber/marmaypag/spatialdACC_LIBD4125/spatialdACC/processed-data/23-GLOBUS/
 create_index("jhpce#dACC_spatial", 
-"https://app.globus.org/file-manager?origin_id=f393195a-f3c4-4e87-93b6-98a97c4494d2&origin_path=%2F")
+"https://app.globus.org/file-manager?origin_id=f393195a-f3c4-4e87-93b6-98a97c4494d2&origin_path=%2F", 'Shah et al., 2026, doi: [10.1016/j.celrep.2026.117500](http://dx.doi.org/10.1016/j.celrep.2026.117500) (GitHub: [spatialdACC](https://github.com/LieberInstitute/spatialdACC)).')
 
 # /dcs04/lieber/marmaypag/spatialDLPFC_SCZ_LIBD4100/processed-data/globus/
 create_index("jhpce#spatialDLPFC_SCZ", 
-"https://app.globus.org/file-manager?origin_id=79537798-4065-4405-84e6-30f15c309cfb&origin_path=%2F")
+"https://app.globus.org/file-manager?origin_id=79537798-4065-4405-84e6-30f15c309cfb&origin_path=%2F", 'Kwon, Guo et al., 2026, doi: [10.64898/2026.02.16.706214](https://doi.org/10.64898/2026.02.16.706214) (GitHub: [spatialDLPFC_SCZ](https://github.com/LieberInstitute/spatialDLPFC_SCZ)).')
 
 # /dcs05/lieber/marmaypag/LFF_spatialERC_LIBD4140/LFF_spatial_ERC/processed-data/20_globus
 create_index("jhpce#LFF_ERC", 
-"https://app.globus.org/file-manager?origin_id=a4f4e10a-9238-48a1-a03a-096b95b4c406&origin_path=%2F")
+"https://app.globus.org/file-manager?origin_id=a4f4e10a-9238-48a1-a03a-096b95b4c406&origin_path=%2F", 'Huuki-Myers et al., 2025, doi: [10.1101/2025.11.20.689483](https://doi.org/10.1101/2025.11.20.689483) (GitHub: [LFF_spatial_ERC](https://github.com/LieberInstitute/LFF_spatial_ERC)).')
 
 #  /dcs05/lieber/marmaypag/LFF_spatialLC_LIBD4140/LFF_spatial_LC/processed-data/17_globus/ 
 create_index("jhpce#LFF_LC", 
-"https://app.globus.org/file-manager?origin_id=998c0526-fa41-4ed4-8079-fd944b27c39a&origin_path=%2F")
+"https://app.globus.org/file-manager?origin_id=998c0526-fa41-4ed4-8079-fd944b27c39a&origin_path=%2F", 'Mulvey, Divecha et al., 2026, doi: [10.1038/s41380-026-03852-5](https://doi.org/10.1038/s41380-026-03852-5) (GitHub: [LFF_spatial_LC](https://github.com/LieberInstitute/LFF_spatial_LC)).')
 
 # /dcs04/lieber/marmaypag/BLA_crossSpecies_LIBD1070/BLA_crossSpecies/processed-data/12_globus/
 create_index("jhpce#BLA_crossSpecies", 
@@ -162,14 +162,14 @@ For the following Globus share endpoints you need to request access given the ty
 
 ```{r 'indexes_private', results = 'asis', echo = FALSE}
 # /dcs04/lieber/lcolladotor/BrainSEQ_LIBD001/brainseq_phase1/genotype_data/
-create_index('jhpce#bsp1-genotype', 'mailto:Geo.Pertea@libd.org')
+create_index('jhpce#bsp1-genotype', 'mailto:Geo.Pertea@libd.org', 'Jaffe et al., 2018, doi: [10.1038/s41593-018-0197-y](https://doi.org/10.1038/s41593-018-0197-y) (GitHub: [brainseq_phase1](https://github.com/LieberInstitute/brainseq_phase1)).')
 
 # /dcs05/lieber/liebercentral/libdDatasets_LIBD001/BrainSeq_hg38/Phase2/Genotype/
-create_index('brainseq_phase2_genotypes', 'mailto:Geo.Pertea@libd.org')
+create_index('brainseq_phase2_genotypes', 'mailto:Geo.Pertea@libd.org', 'Collado-Torres et al., 2019, doi: [10.1016/j.neuron.2019.05.013](https://doi.org/10.1016/j.neuron.2019.05.013) (GitHub: [brainseq_phase2](https://github.com/LieberInstitute/brainseq_phase2)).')
 
 # TODO by Ryan
 create_index('WeberDivecha2023_locus_coeruleus', 'mailto:keri.martinowich@libd.org')
 
 # /dcs04/lieber/lcolladotor/pilotHb_LIBD001/Roche_Habenula/processed-data/08_bulk_snpPC/
-create_index("jhpce#habenulaPilotbulkDNAgenotype", "mailto:Geo.Pertea@libd.org")
+create_index("jhpce#habenulaPilotbulkDNAgenotype", "mailto:Geo.Pertea@libd.org", 'Yalcinbas et al., 2025, doi: [10.1176/appi.ajp.20240776](https://doi.org/10.1176/appi.ajp.20240776) (GitHub: [habenula_pilot](https://github.com/LieberInstitute/habenula_pilot)).')
 ```
