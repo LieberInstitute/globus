@@ -155,6 +155,10 @@ create_index("jhpce#NAc_AP",
 create_index("jhpce#microRNA_FASTQ",
 "https://app.globus.org/file-manager?origin_id=98e3b29f-1691-4c2d-a59f-1fc0eb888373&origin_path=%2F")
 
+# /dcs04/lieber/marmaypag/spatialDLPFC_mdd_bpd_LIBD4100/spatialDLPFC_mdd_bpd/processed-data/16_globus/
+create_index("jhpce#spatialDLPFC_mdd_bpd",
+"https://app.globus.org/file-manager?origin_id=b1944770-cf42-41bb-8b20-479f501187a3&origin_path=%2F")
+
 
 ```
 
