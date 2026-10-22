@@ -141,15 +141,21 @@ create_index("jhpce#LFF_LC",
 
 # /dcs04/lieber/marmaypag/BLA_crossSpecies_LIBD1070/BLA_crossSpecies/processed-data/12_globus/
 create_index("jhpce#BLA_crossSpecies", 
-"https://app.globus.org/file-manager?origin_id=ec90c015-db19-4c91-8a1a-8470dfd6e954&origin_path=%2F")
+"https://app.globus.org/file-manager?origin_id=ec90c015-db19-4c91-8a1a-8470dfd6e954&origin_path=%2F", 'Totty, Cervera Juanes, Bach et al., 2025, 
+doi: [10.1126/sciadv.adw1029](https://doi.org/10.1126/sciadv.adw1029) (GitHub: 
+[BLA_crossSpecies](https://github.com/LieberInstitute/BLA_crossSpecies)).')
 
 # /dcs05/lieber/marmaypag/spatransfer-manuscript_LIBD001/spatransfer-manuscript/processed-data/globus/
 create_index("jhpce#spatransfer", 
-"https://app.globus.org/file-manager?origin_id=95210672-c761-4ffd-b239-c71fea83014a&origin_path=%2F")
+"https://app.globus.org/file-manager?origin_id=95210672-c761-4ffd-b239-c71fea83014a&origin_path=%2F", 'Fang et al., 2025, doi: 
+[10.64898/2025.12.12.694021](https://doi.org/10.64898/2025.12.12.694021) (GitHub: 
+[spaTransfer](https://github.com/cindyfang70/spaTransfer)).')
 
 # /dcs05/lieber/marmaypag/xenium_NAC_LIBD4125/xenium_NAC/processed-data/13_app/
 create_index("jhpce#NAc_AP", 
-"https://app.globus.org/file-manager?origin_id=6aa1f518-e45f-4c4c-adde-2970f42908e1&origin_path=%2F")
+"https://app.globus.org/file-manager?origin_id=6aa1f518-e45f-4c4c-adde-2970f42908e1&origin_path=%2F", 'Phillips, Yao et al., 2026, doi: 
+[10.64898/2026.09.25.754413](https://doi.org/10.64898/2026.09.25.754413) (GitHub: 
+[NAc_AP](https://github.com/LieberInstitute/xenium_NAC)).')
 
 # /dcs05/lieber/liebercentral/libdDatasets_LIBD001/microRNA/
 create_index("jhpce#microRNA_FASTQ",
@@ -172,8 +178,10 @@ create_index('jhpce#bsp1-genotype', 'mailto:Geo.Pertea@libd.org', 'Jaffe et al.,
 # /dcs05/lieber/liebercentral/libdDatasets_LIBD001/BrainSeq_hg38/Phase2/Genotype/
 create_index('brainseq_phase2_genotypes', 'mailto:Geo.Pertea@libd.org', 'Collado-Torres et al., 2019, doi: [10.1016/j.neuron.2019.05.013](https://doi.org/10.1016/j.neuron.2019.05.013) (GitHub: [brainseq_phase2](https://github.com/LieberInstitute/brainseq_phase2)).')
 
-# TODO by Ryan
-create_index('WeberDivecha2023_locus_coeruleus', 'mailto:keri.martinowich@libd.org')
+# /dcs04/lieber/lcolladotor/pilotLC_LIBD001/locus-c/
+create_index('WeberDivecha2023_locus_coeruleus', 'mailto:keri.martinowich@libd.org', 'Weber and Divecha et al., 2024, doi:
+             [10.7554/eLife.84628.3]( https://doi.org/10.7554/eLife.84628.3) (GitHub: 
+             [locus-c](https://github.com/lmweber/locus-c)).')
 
 # /dcs04/lieber/lcolladotor/pilotHb_LIBD001/Roche_Habenula/processed-data/08_bulk_snpPC/
 create_index("jhpce#habenulaPilotbulkDNAgenotype", "mailto:Geo.Pertea@libd.org", 'Yalcinbas et al., 2025, doi: [10.1176/appi.ajp.20240776](https://doi.org/10.1176/appi.ajp.20240776) (GitHub: [habenula_pilot](https://github.com/LieberInstitute/habenula_pilot)).')
